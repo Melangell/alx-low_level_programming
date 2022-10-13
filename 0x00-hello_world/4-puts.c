@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - using puts format
- * return: 0 if positive
+ * return 'main' - 0 if positive, non-zero otherwise
  */
-int main(void)
+main(void);
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
