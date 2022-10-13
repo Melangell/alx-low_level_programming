@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
  * main - prints sizes of various types on computer
- * Return: 0 if positive
+ * Return: 0 if positive, non-zero otherwise
  */
 
 int main(void)
