@@ -4,7 +4,7 @@
  * main - using puts format
  * return 'main' - 0 if positive, non-zero otherwise
  */
-main(void);
+int main(void);
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
