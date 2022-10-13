@@ -2,8 +2,9 @@
 
 /**
  * main - using puts format
- * return 'main' - 0 if positive, non-zero otherwise
+ * Return: 0 if positive
  */
+
 int main(void);
 {
 	puts("\"Programming is like building a multilingual puzzle");
