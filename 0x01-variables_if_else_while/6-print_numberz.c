@@ -2,7 +2,7 @@
 /**
  * main -print numbers without using char as variable
  * Return: 0 if successful
-i*/
+ */
 int main(void)
 {
 	int n;
