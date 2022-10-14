@@ -4,7 +4,7 @@
 
 /**
  * main - solving for last digit
- * Return: 0 if successful
+i* Return: 0 if successful
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	printf("Last digit of %d is %p ", n);
+	printf("Last digit of %d is %d ", n, n % 10);
 	if (n > 5)
 {
 	printf("and is greater than 5\n");
