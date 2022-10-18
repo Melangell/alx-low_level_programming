@@ -6,10 +6,11 @@
  */
 int main(void)
 {
+	int c;
+	int _putchar(char c);
 	print_alphabet();
 
-	int i;
-	for (i = 97; i <= 122; i++)
+	for (c = 97; c <= 122; c++)
 	{
 		write(1, "_putchar\n", 9);
 	}
