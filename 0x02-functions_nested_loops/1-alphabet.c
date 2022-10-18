@@ -7,12 +7,9 @@ int main(void)
 {
 	print_alphabet();
 
-	int i;
-
-	for (i = 97; i <= 122; i++)
+	for (_putchar = 97; _putchar <= 122; _putchar++)
 	{
-		_putchar(i);
+		write(1, "_putchar\n", 9);
 	}
-	_putchar('\n');
 	return (0);
 }
