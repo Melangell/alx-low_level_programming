@@ -7,7 +7,6 @@
 int main(void)
 {
 	print_alphabet();
-	int _putchar(char c);
 
 	int i;
 	for (i = 97; i <= 122; i++)
