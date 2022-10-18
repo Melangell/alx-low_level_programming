@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 /**
  * main - prints the alphabet in lowercase
@@ -6,8 +7,10 @@
 int main(void)
 {
 	print_alphabet();
+	int _putchar(char c);
 
-	for (_putchar = 97; _putchar <= 122; _putchar++)
+	int i;
+	for (i = 97; i <= 122; i++)
 	{
 		write(1, "_putchar\n", 9);
 	}
