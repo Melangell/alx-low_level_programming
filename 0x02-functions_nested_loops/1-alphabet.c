@@ -6,7 +6,6 @@
 int main(void)
 {
 	print_alphabet();
-	int _putchar(char c);
 
 	int i;
 
