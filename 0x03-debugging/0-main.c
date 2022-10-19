@@ -7,11 +7,12 @@
 
 int main(void)
 {
-void positive_or_negative(int i);
+
 	int i;
 
 	 i = 98;
 	positive_or_negative(i);
 
+	printf("%d is zero\n", i);
 	return (0);
 }
