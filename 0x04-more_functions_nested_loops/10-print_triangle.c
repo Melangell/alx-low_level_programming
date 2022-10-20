@@ -1,8 +1,8 @@
 #include "main.h"
+
 /**
  * print_triangle - prints a triangle
  * @size: character to be verified
- * Return: no return
  */
 void print_triangle(int size)
 {
@@ -15,7 +15,7 @@ void print_triangle(int size)
 
 		for (i = 1; i <= size; i++)
 		{
-			for (j = 1; j < size; j++)
+			for (j = i; j < size; j++)
 			{
 				_putchar(' ');
 			}
