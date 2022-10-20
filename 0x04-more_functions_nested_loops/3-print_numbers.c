@@ -9,5 +9,6 @@ void print_numbers(void)
 
 	if (c >= 48 && c <= 57)
 		_putchar(c);
+		c++;
 	_putchar('\n');
 }
