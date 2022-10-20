@@ -6,7 +6,6 @@
 void print_numbers(void)
 {
 	int c;
-	int _putchar(char c);
 
 	if (c >= 48 && c <= 57)
 		_putchar(c);
