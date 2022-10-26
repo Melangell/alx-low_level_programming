@@ -3,15 +3,17 @@
  * _strncpy - copies a string
  * @dest: first string
  * @src: second string
- * Return: return to src
+ * Return: return to dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
-	for (i = 0; dest[i] != '\0'; ++i)
-	src[i] = dest[i];
+	for (i = 0; src[i] != '\0' && i < n; i++)
+	dest[i] = src[i];
 
-	src[i] = '\0';
-	return (src);
+	for (; i < n; i++)
+	dest[i] = '\0';
+
+	return (dest);
 }
