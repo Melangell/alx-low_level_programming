@@ -3,6 +3,7 @@
  * _strncpy - copies a string
  * @dest: first string
  * @src: second string
+ * @n: byte to be used
  * Return: return to dest
  */
 char *_strncpy(char *dest, char *src, int n)
