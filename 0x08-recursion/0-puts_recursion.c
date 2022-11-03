@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _puts_recursion - prints a string
- * @s: character to be verified
+ * @s: string to be printed
  * Return: no return
  */
 void _puts_recursion(char *s)
